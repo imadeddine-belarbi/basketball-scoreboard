@@ -1,4 +1,6 @@
-# cGZgRzCg
+# Basketball Scorboard 
+
+https://charming-nasturtium-a49335.netlify.app
 
 Quick start:
 
