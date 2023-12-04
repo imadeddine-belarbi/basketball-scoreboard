@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>Bsketball Scoreboard</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="board">
+                <div class="team">
+                    <h2 class="team-title">HOME</h2>
+                    <h3 class="team-score" id="team-1-score">0</h3>
+                    <div class="btns-wrapper">
+                        <button class="score-btn" onclick="add1PointTeam1()">+1</button>
+                        <button class="score-btn" onclick="add2PointsTeam1()">+2</button>
+                        <button class="score-btn" onclick="add3PointsTeam1()">+3</button>
+                    </div>
+                </div>
+                <div class="team">
+                    <h2 class="team-title">GUEST</h2>
+                    <h3 class="team-score" id="team-2-score">0</h3>
+                    <div class="btns-wrapper">
+                        <button class="score-btn" onclick="add1PointTeam2()">+1</button>
+                        <button class="score-btn" onclick="add2PointsTeam2()">+2</button>
+                        <button class="score-btn" onclick="add3PointsTeam2()">+3</button>
+                    </div>
+                </div>
+            </div>
+            <button class="new-game-btn" onclick="newGame()">NEW GAME</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
